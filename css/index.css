@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    width: 700px;
+    height: 650px;
+    background-image: linear-gradient(135deg,#00feba,#5b548a);
+    border-radius: 10px ;
+    position: relative;
+}
+
+.inputdiv{
+    width: 680px;
+    height: 40px;
+    background-color: rgb(245, 237, 237);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 640px;
+    height: 40px;
+    position: absolute;
+    left: 15px;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    letter-spacing: 2px;
+}
+button{
+    position: absolute;
+    right: 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.3);
+}
+#bottomdiv{
+    width: 700px;
+    height: 120px;
+    /* background-color: cornflowerblue; */
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.humidity{
+    height: 80px;
+    width: 160px;
+    /* background-color: white; */
+    position: relative;
+}
+.WindSpeed{
+    height: 80px;
+    width: 180px;
+    /* background-color: white; */
+    position: relative;
+}
+.timeZone{
+    height: 80px;
+    width: 320px;
+    /* background-color: white; */
+    position: relative;
+}
+#drop,#wind,#time{
+    font-size: 40px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    /* color: white; */
+}
+#humiditytext,#wSpeed,#tZone{
+    font-size: 18px;
+    position: absolute;
+    left: 60px;
+    top: 35px;
+    /* color: white; */
+}
+.value,.wValue,.tZone{
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    color: white;
+}
+#mainbody{
+    width: 700px;
+    height: 470px;
+    position: absolute;
+    top: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.weather-Icon{
+    width: 250px;
+    height: 250px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#texDiv{
+    width: 400px;
+    height: 100px;
+    /* background-color: gray; */
+    position: absolute;
+    top: 355px;
+    left: 130px;
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.weather-Icon1{
+    width: 250px;
+    
+}
+.temp,.weather-Type{
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    /* background-image: url(../assets/images/clouds.png); */
+}
+.locName{
+    width: 400px;
+    height: 60px;
+    position: absolute;
+    top: 18px;
+    left: 130px;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.locName1{
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+

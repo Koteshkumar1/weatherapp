@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Weather App</title>
+     <link rel="stylesheet" href="./css/index.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <script src="./js/index.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <div class="inputdiv">
+                <input type="text" placeholder="Enter Your City Location" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="mainbody">
+            <div class="locName">
+                <h1 class="locName1">--</h1>
+            </div>
+            <div class="weather-Icon">
+                <img src="" class="weather-Icon1">
+            </div>
+            <div id="texDiv">
+                    <h1 class="temp">--°C</h1>
+                    <h2 class="weather-Type">--</h2>
+            </div>
+        </div>
+        <div id="bottomdiv">
+            <div class="humidity">
+                <h1 class="value">--%</h1>
+                <i class="fa-solid fa-droplet" id="drop"></i>
+                <p id="humiditytext">Humidity</p>
+            </div>
+            <div class="WindSpeed">
+                <h1 class="wValue">--km/h</h1>
+                <i class="fa-solid fa-wind" id="wind"></i>
+                <p id="wSpeed">Wind speed</p>
+            </div>
+            <div class="timeZone">
+                <h1 class="tZone" id="TimeZone">--</h1>
+                <i class="fa-solid fa-clock" id="time"></i>
+                <p id="tZone">Timezone</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
